@@ -15,8 +15,9 @@ const app = express()
 
 app.get('/', (request, response) => {
 
-    console.log("Request received")
-    response.send('Welcome');
+    // console.log("Request received")
+    // response.send('Welcome');
+    response.json({msg: 'welcome'});
 })
 
 app.listen(3333, () =>{
