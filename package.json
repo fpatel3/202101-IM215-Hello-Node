@@ -1,0 +1,16 @@
+{
+  "name": "y",
+  "version": "y",
+  "description": "Thid is a tutorial on REST APIs using Express",
+  "main": "index.js",
+  "repository": "https://github.com/fpatel3/202101-IM215-Hello-Node.git",
+  "author": "fpatel3 <forampatel3010@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+
+  "scripts":{
+    "dev": "node index.js"
+  } 
+}
