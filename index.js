@@ -17,7 +17,8 @@ app.get('/', (request, response) => {
 
     // console.log("Request received")
     // response.send('Welcome');
-    response.json({msg: 'welcome'});
+    //response.json({msg: 'welcome'});
+    //response.end()
 })
 
 app.listen(3333, () =>{
